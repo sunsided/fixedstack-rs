@@ -167,7 +167,7 @@ Contributions are welcome! Feel free to fork the repository, create a feature br
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This project is licensed under the EUPL-1.2 License. See [LICENSE](LICENSE.md) for details.
 
 
 [safety-image]: https://img.shields.io/badge/unsafe-allowed-yellow.svg
