@@ -4,6 +4,8 @@ description = "Performance evaluation of safe vs. unsafe rust implementations"
 publish = false
 authors = ["Markus Mayer <widemeadows@gmail.com>"]
 version = "0.1.0"
+repository = "https://github.com/sunsided/fixedstack-rs"
+documentation = "https://github.com/sunsided/fixedstack-rs"
 edition = "2021"
 license = "EUPL-1.2"
 
