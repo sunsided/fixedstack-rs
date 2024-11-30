@@ -43,6 +43,18 @@ impl<T> FixedStack<T> {
             unsafe { Some(self.buffer.add(self.top).read()) }
         }
     }
+
+    pub fn len(&self) -> usize {
+        self.top
+    }
+
+    pub fn is_empty(&self) -> bool {
+        self.len() == 0
+    }
+
+    pub fn capacity(&self) -> usize {
+        self.capacity
+    }
 }
 
 impl<T> Drop for FixedStack<T> {
