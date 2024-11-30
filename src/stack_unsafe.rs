@@ -1,7 +1,10 @@
 pub struct FixedStack<T> {
-    buffer: *mut T,  // Raw pointer to the memory buffer
-    capacity: usize, // Fixed capacity of the stack
-    top: usize,      // Current index (size of the stack)
+    /// Raw pointer to the memory buffer
+    buffer: *mut T,
+    /// Fixed capacity of the stack
+    capacity: usize,
+    /// Current index (size of the stack)
+    top: usize,
 }
 
 impl<T> FixedStack<T> {
