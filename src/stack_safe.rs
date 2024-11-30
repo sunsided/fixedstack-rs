@@ -40,8 +40,8 @@
 //! and potentially optimized performance.
 
 pub struct FixedStack<T> {
-    buffer: Vec<T>,   // Vec manages memory safely
-    capacity: usize,  // Fixed capacity of the stack
+    buffer: Vec<T>,  // Vec manages memory safely
+    capacity: usize, // Fixed capacity of the stack
 }
 
 impl<T> FixedStack<T> {

@@ -4,5 +4,5 @@
 
 #![allow(unsafe_code)]
 
-pub mod stack_unsafe;
 pub mod stack_safe;
+pub mod stack_unsafe;
