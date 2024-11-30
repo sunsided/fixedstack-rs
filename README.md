@@ -1,5 +1,10 @@
 # FixedStack: Safe and Unsafe Stack Implementations in Rust
 
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/sunsided/rust-aligned-allocations/rust.yml)](https://github.com/sunsided/fixedstack-rs/actions/workflows/rust.yml)
+[![Safety Dance][safety-image]][safety-link]
+[![codecov](https://codecov.io/gh/sunsided/rust-aligned-allocations/graph/badge.svg?token=6CR3SYT3HT)](https://codecov.io/gh/sunsided/fixedstack-rs)
+
+
 This project demonstrates two implementations of a stack in Rust: a **safe implementation** using `Vec` and an **unsafe implementation** using raw pointers for manual memory management. The project includes:
 - **Benchmarks**: Comparing performance between safe and unsafe implementations using `criterion`.
 - **Fuzzing**: Testing the robustness of the stack implementations using `cargo-fuzz`.
@@ -166,3 +171,8 @@ Contributions are welcome! Feel free to fork the repository, create a feature br
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+
+[safety-image]: https://img.shields.io/badge/unsafe-yes-yellow.svg
+
+[safety-link]: https://github.com/rust-secure-code/safety-dance/
