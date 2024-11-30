@@ -85,7 +85,6 @@ impl<T> Drop for FixedStack<T> {
     }
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::*;
