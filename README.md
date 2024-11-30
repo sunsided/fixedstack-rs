@@ -173,6 +173,6 @@ Contributions are welcome! Feel free to fork the repository, create a feature br
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 
-[safety-image]: https://img.shields.io/badge/unsafe-yes-yellow.svg
+[safety-image]: https://img.shields.io/badge/unsafe-allowed-yellow.svg
 
 [safety-link]: https://github.com/rust-secure-code/safety-dance/
