@@ -38,8 +38,8 @@ For benchmarks and fuzzing:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/fixedstack.git
-cd fixedstack
+git clone https://github.com/sunsided/fixedstack-rs.git
+cd fixedstack-rs
 ```
 
 ### Build the Project
