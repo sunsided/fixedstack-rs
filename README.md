@@ -115,17 +115,14 @@ cargo fuzz tmin fuzz_stack fuzz/artifacts/fuzz_stack/<failing-input>
 ├── src
 │   ├── lib.rs                # Main library code for stack implementations
 │   ├── stack_safe.rs         # Safe stack implementation
-│   ├── stack_unsafe.rs       # Unsafe stack implementation
+│   └── stack_unsafe.rs       # Unsafe stack implementation
 │
 ├── benches
 │   └── benchmarks.rs         # Criterion benchmarks
 │
-├── fuzz
-│   ├── fuzz_targets          # Directory for fuzzing targets
-│   └── fuzz_stack.rs         # Fuzz target for stack testing
-│
-└── tests
-    └── integration_tests.rs  # Integration tests for the stack implementations
+└── fuzz
+    ├── fuzz_targets          # Directory for fuzzing targets
+    └── fuzz_stack.rs         # Fuzz target for stack testing
 ```
 
 ---
