@@ -2,7 +2,16 @@
 help:
     @just --list --unsorted
 
-# Run benchmarks
+# Builds the project using cargo
+build:
+    cargo build
+
+# Runs the tests
+test:
+    cargo test --lib
+    cargo test --doc
+
+# Runs the benchmarks
 bench:
     cargo bench
 
